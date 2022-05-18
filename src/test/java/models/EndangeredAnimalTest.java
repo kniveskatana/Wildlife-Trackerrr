@@ -12,7 +12,7 @@ public class EndangeredAnimalTest {
 
     @Before
     public void setUp() throws Exception {
-        DB.sql2o = new Sql2o("jdbc:postgresql://localhost:5432/wildlife_tracker_test","kniveskatana","dadju123..");
+        DB.sql2o = new Sql2o("jdbc:postgresql://localhost:5432/wildlife_tracker_test","kniveskatana","dadju123");
     }
 
     @After
@@ -92,7 +92,10 @@ public class EndangeredAnimalTest {
         firstendangered.saveEn();
         int deleteEndangeredAnimalById = firstendangered.getId();
         firstendangered.delete();
-        assertEquals(null,EndangeredAnimal.findEndangered(deleteEndangeredAnimalById));
+
+        System.out.println(deleteEndangeredAnimalById);
+
+        assertEquals(null,Animal.findById(deleteEndangeredAnimalById));
 
     }
 

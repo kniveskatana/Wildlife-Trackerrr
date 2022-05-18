@@ -1,5 +1,5 @@
 {{#partial "styles"}}
-    <link rel='stylesheet' href='/css/styles.css'>
+    <link rel='stylesheet' href='/public/App.css'>
 {{/partial}}
 {{#partial "content"}}
 <h1>Add a Sighting</h1>
@@ -28,7 +28,7 @@
     <div class="form-group">
         <label for="locationId">Location</label>
         <select mdb-select md-form colorful-select dropdown-secondary id='locationId' name='locationId' type='text'>
-            <option class="text-grey" value="" disabled selected>Select a Location</option>
+            <option class="text-grey" value="" disabled selected>Select Spotted Location</option>
            {{#each locations}}
             <option value="{{locationId}}">Location</option>
            {{/each}}

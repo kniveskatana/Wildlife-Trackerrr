@@ -6,6 +6,16 @@ import java.util.List;
 import java.util.Objects;
 
 public class EndangeredAnimal extends Animal implements EndangeredInterface {
+    private int id;
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    @Override
+    public int getId() {
+        return id;
+    }
 
     private String health;
     private String age;

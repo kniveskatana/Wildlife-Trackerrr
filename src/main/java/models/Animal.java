@@ -6,7 +6,8 @@ import java.util.List;
 public class Animal  implements AnimalInterface {
     public int id;
     public String name;
-    public    String type;
+    public String type;
+
     public static final String ANIMAL_TYPE = "animal";
 
     public Animal(String name){
@@ -58,6 +59,7 @@ public class Animal  implements AnimalInterface {
                     .addParameter("type",this.type)
                     .executeUpdate()
                     .getKey();
+
         }
     }
 
@@ -95,7 +97,7 @@ public class Animal  implements AnimalInterface {
         try (Connection conn = DB.sql2o.open()){
             String sql = "DELETE FROM animals WHERE id=:id;";
             conn.createQuery(sql)
-                    .addParameter("id",id)
+                    .addParameter("id",this.id)
                     .executeUpdate();
         }
     }

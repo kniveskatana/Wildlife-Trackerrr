@@ -12,7 +12,7 @@ public class RangerTest {
 
     @Before
     public void setUp() throws Exception {
-        DB.sql2o = new Sql2o("jdbc:postgresql://localhost:5432/wildlife_tracker_test","kniveskatana","dadju123.");
+        DB.sql2o = new Sql2o("jdbc:postgresql://localhost:5432/wildlife_tracker_test","kniveskatana","dadju123");
     }
 
     @After
