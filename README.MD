@@ -2,6 +2,8 @@
 
 #### Created By **Joan Deng**
 
+###Here's the link to the Github Repo:
+
 ## Description
 
 This is a fictional app that allows one to recruit a squad of superheroes.
@@ -13,15 +15,17 @@ These instructions will get you a copy of the project up and running on your loc
 
 You will need to:
 
-* Have Java
-* Spark
-* Have intellij installed
+* Java JDK 11
+
+* Gradle
+
+* Must have some prior knowledge of Java
 
 # Installing
 
 * Go to Github.com
 
-* Search for Kniveskatana (https://github.com/kniveskatana/Escouade-de-Heross) then navigate to the project Escouade-de-Heross.
+* Search for Kniveskatana (https://github.com/kniveskatana/Wildlife-Trackerrr) 
 
 * Then clone the project or fork it.
 
