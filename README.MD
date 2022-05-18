@@ -2,7 +2,7 @@
 
 #### Created By **Joan Deng**
 
-###Here's the link to the Github Repo:
+###Here's the link to the Github Repo: https://wildlife-trackerrr.herokuapp.com/
 
 ## Description
 
